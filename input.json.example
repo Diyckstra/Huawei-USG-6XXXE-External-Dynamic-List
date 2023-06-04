@@ -1,0 +1,26 @@
+{
+   "firewall_connection":{
+      "address":"huawei_usg_6655E_IP_or_FQDN",
+      "api_port":"8447",
+      "vsys":"public",
+      "api_username":"API_USERNAME",
+      "api_password":"API_SUPER_SECRET_PASSWORD"
+   },
+   "dynamic_lists":[
+      {
+         "name":"torlist",
+         "link":"https://www.dan.me.uk/torlist/",
+         "type":"ip"
+      },
+      {
+         "name":"torbulkexitlist",
+         "link":"https://check.torproject.org/torbulkexitlist",
+         "type":"ip"
+      },
+      {
+         "name":"21Vianet",
+         "link":"https://saasedl.paloaltonetworks.com/feeds/m365/china/any/all/ipv4",
+         "type":"ip"
+      }
+   ]
+}

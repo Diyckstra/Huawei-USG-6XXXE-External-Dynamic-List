@@ -1,0 +1,13 @@
+# secrets
+input.json
+
+# log files
+*.log
+
+# Cashe
+__pycache__/*
+.vscode/*
+
+# Test scripts
+old_*.py
+test*.py
